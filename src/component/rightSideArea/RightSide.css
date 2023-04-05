@@ -3,5 +3,5 @@
     height: 100vh;
     width: 78%;
     padding-left: 3%;
-    overflow-y:scroll;
+    /* overflow-y:scroll; */
 }

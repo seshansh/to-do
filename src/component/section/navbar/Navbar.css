@@ -35,21 +35,21 @@ nav{
 
 .search-input{
     margin-left: 20%;
-    background-color: transparent;
+    background-color: white;
     /* border: solid #182747; */
-    border: solid whitesmoke;
+    border: none;
     border-width: thin;
     height: 2rem;
     width: auto;
     border-radius: 20px 0px 0px 20px;
-    color: aliceblue;
+    /* color: aliceblue; */
     padding-left: 2%;
     outline: none;
     font-size: large;
 }
 
 .search-icon{
-    background-color: transparent;
+    background-color: white;
     border: solid whitesmoke;
     /* border: solid #182747; */
     border-width: thin;
@@ -58,7 +58,7 @@ nav{
     border-left: unset;
 }
 .search-icon:hover{
-    background-color: #C47AFF;
+    background-color: #EEEEEE;
 }
 .search-icon:active{
     background-color: #3F0071;

@@ -4,6 +4,7 @@
     
     /* background-color: red; */
     text-align: start;
+    /* overflow: unset; */
 }
 label{
     color: #7F8487;
@@ -41,6 +42,11 @@ tr{
     /* border-width: ; */
     padding-left: 2%;
     padding-bottom: 1%;
+}
+.add-custom-tag-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 .add-title-input{
     height: 5vh;

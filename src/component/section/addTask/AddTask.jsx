@@ -1,7 +1,7 @@
 import React from "react";
 import './AddTask.css';
 import { IoMdAddCircleOutline } from "react-icons/io";
-
+import { VscDiffAdded } from "react-icons/vsc";
 const AddTask =()=>{
     return <div className="main-head_addTask">
         
@@ -30,6 +30,7 @@ const AddTask =()=>{
                         <option>Family</option>
                     </select>
                     <input className="custom-tag-input" type="text" placeholder="Add tag" maxLength="30" />
+                    <button className="add-custom-tag-button"><VscDiffAdded size="1.5rem"/></button>
                 </td>
                 
                 </tr>
